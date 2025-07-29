@@ -26,7 +26,8 @@ AI Powered with DeepSeek + PyTorch
 1. **Add resumes**:
    - Create a new folder in the main directory called `resumelist`.
    - Place your resume files in the `resumelist` folder.
-   - Make sure the files are .pdf files. The reccomended maximum is 50 files at once
+   - Make sure the file extension is .pdf, no other formats are supported currently.
+   - The reccomended maximum is 50 files at once.
 
 3. **Run the program**:
    ```bash
