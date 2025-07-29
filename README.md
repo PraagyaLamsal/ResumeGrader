@@ -5,12 +5,12 @@ AI Powered with DeepSeek + PyTorch
 ## Features
 
 - **AI-Powered Analysis**: Uses DeepSeek AI API for intelligent resume evaluation
-- **PyTorch ML Models**: Custom machine learning models for skill analysis
+- **PyTorch ML Models**: ML Models for skill analysis/education match
 - **BERT Embeddings**: Semantic similarity analysis using BERT
 - **TF-IDF + Cosine Similarity**: Traditional NLP algorithms for comparison
-- **Weighted Scoring**: Combines multiple analysis methods with safeguards
-- **PDF Processing**: Automatic text extraction from PDF resumes
-- **Batch Processing**: Process multiple resumes at once
+- **Weighted Scoring**: Combines multiple analysis methods with safeguards, assigned weight to skills.
+- **PDF Processing**: Automatic text extraction from PDF resumes.
+- **Batch Processing**: Process multiple resumes at once.
 
 ## Quick Start
 
