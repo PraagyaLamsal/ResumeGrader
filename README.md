@@ -68,4 +68,4 @@ AI Powered with DeepSeek + PyTorch
 
 ## Contact Me
 
-- **LinkedIn**: linkedin.com/in/praagya-lamsal/
+- **LinkedIn**: https://linkedin.com/in/praagya-lamsal/
