@@ -1,5 +1,5 @@
 @echo off
-echo Installing Smart Resume Screener CLI Requirements...
+echo Installing Requirements...
 echo.
 echo This will install all necessary Python packages.
 echo.
