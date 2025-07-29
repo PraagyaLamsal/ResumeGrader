@@ -15,26 +15,26 @@ AI Powered with DeepSeek + PyTorch
 ## Quick Start
 
 1. **Install dependencies**:
-   ```bash
-   pip install -r src/requirements.txt
-   ```
+   Double-click `install_requirements.bat`. (Reccomended)
    
    OR
 
    ```bash
-    run install_requirements.bat (Reccomended)
+   pip install -r src/requirements.txt
    ```
 
 1. **Add resumes**:
-   - Place your resume PDF files in the `resumelist` folder
+   - Create a new folder in the main directory called `resumelist`.
+   - Place your resume files in the `resumelist` folder.
+   - Make sure the files are .pdf files. The reccomended maximum is 50 files at once
 
-2. **Run the program**:
+3. **Run the program**:
    ```bash
    python src/cli_resume_screener.py
    ```
-   Or double-click `run_screener.bat` (Windows)
+   Or double-click `run_screener.bat` (Reccomended)
 
-3. **Follow the menu**:
+4. **Follow the menu**:
    - Select "Start Resume Grading"
    - Paste the job description when prompted
    - Wait for analysis to complete
@@ -45,7 +45,7 @@ AI Powered with DeepSeek + PyTorch
 ### DeepSeek API Key (Optional)
 - Get free API key from: https://platform.deepseek.com/
 - Enhances analysis with AI evaluation
-- Works without API key (PyTorch analysis only)
+- Works without API key (PyTorch analysis only; Not reccomended)
 
 ## Scoring System
 
@@ -65,10 +65,6 @@ AI Powered with DeepSeek + PyTorch
 - **Location**: `result/resume_ranking_YYYYMMDD_HHMMSS.txt`
 - **Format**: RANK | NAME | SCORE
 
-## Technologies
+## Contact Me
 
-- **Python**: Core programming language
-- **DeepSeek API**: AI-powered resume evaluation
-- **PyTorch**: Custom machine learning models
-- **scikit-learn**: TF-IDF and cosine similarity
-- **BERT embeddings**: Semantic analysis
+- **LinkedIn**: linkedin.com/in/praagya-lamsal/
