@@ -18,17 +18,23 @@ AI Powered with DeepSeek + PyTorch
    ```bash
    pip install -r src/requirements.txt
    ```
+   
+   OR
 
-2. **Add resumes**:
+   ```bash
+    run install_requirements.bat (Reccomended)
+   ```
+
+1. **Add resumes**:
    - Place your resume PDF files in the `resumelist` folder
 
-3. **Run the program**:
+2. **Run the program**:
    ```bash
    python src/cli_resume_screener.py
    ```
    Or double-click `run_screener.bat` (Windows)
 
-4. **Follow the menu**:
+3. **Follow the menu**:
    - Select "Start Resume Grading"
    - Paste the job description when prompted
    - Wait for analysis to complete
